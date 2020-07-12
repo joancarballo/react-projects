@@ -1,13 +1,13 @@
 import React from "react";
 
-function Header() {
+function Header({ titulo }) {
   return (
     <div>
       <p>
         Hoy en "cosas que me arrepiento de hacer después de haberles dedicado un
-        buen rato" os presento...{" "}
+        buen rato" os presento...
       </p>
-      <h1>Insultos Random</h1>
+      <h1 className="encabezado">{titulo}</h1>
     </div>
   );
 }
